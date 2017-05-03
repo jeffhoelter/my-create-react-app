@@ -2,6 +2,13 @@ import React, { Component } from "react";
 import { Grid, Navbar, Jumbotron, Button } from "react-bootstrap";
 import MyButton from "./Button";
 import MyImage from "./MyImage";
+import styled from "styled-components";
+
+const MyTitle = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
 
 class App extends Component {
   render() {
@@ -22,6 +29,7 @@ class App extends Component {
             <h1>Welcome to React</h1>
             <MyButton title="Hey Now" />
             <MyImage />
+            <MyTitle>Hey now title</MyTitle>
             <p>
               <Button
                 bsStyle="success"
