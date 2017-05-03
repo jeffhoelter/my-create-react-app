@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Navbar, Jumbotron, Button } from "react-bootstrap";
-import DangerButton from "./DangerButton";
+import MyButton from "./Button";
 import MyImage from "./MyImage";
-import logo from "./logo.svg";
 
 class App extends Component {
   render() {
@@ -21,7 +20,7 @@ class App extends Component {
         <Jumbotron>
           <Grid>
             <h1>Welcome to React</h1>
-            <DangerButton />
+            <MyButton title="Hey Now" />
             <MyImage />
             <p>
               <Button
